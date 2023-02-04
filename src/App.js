@@ -1,13 +1,14 @@
-import logo from './logo.svg';
-import './App.css';
+import "./App.css";
+import DownNavBar from "./components/downNavBar";
 
 function App() {
-  //let hello = (val) => "Hello" + val;
-
   return (
-    <div className="App">
-      <h1>Hello world!</h1>
-    </div>
+    <>
+      <div className="App">
+        <h1>Hello world! 123</h1>
+        <DownNavBar />
+      </div>
+    </>
   );
 }
 
