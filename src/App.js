@@ -1,6 +1,5 @@
 import "./App.css";
 import DownNavBar from "./components/downNavBar";
-import DownNavBar2 from "./components/downNavBar2";
 import TopNavBar from "./components/topNavBar";
 import Testboot from "./test";
 import googlelogo from "./image/googlelogo.png"
@@ -14,8 +13,7 @@ function App() {
         {/* <Testboot /> */}
         <h1>Search bar</h1>
         <h1>search button</h1>
-        {/* <DownNavBar /> */}
-        <DownNavBar2 />
+        <DownNavBar />
       </div>
     </>
   );
