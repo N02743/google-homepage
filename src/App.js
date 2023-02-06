@@ -1,8 +1,7 @@
 import "./App.css";
-import DownNavBar from "./components/downNavBar";
-import TopNavBar from "./components/topNavBar";
-import Testboot from "./test";
-import googlelogo from "./image/googlelogo.png"
+import DownNavBar from "./components/DownNavBar";
+import TopNavBar from "./components/TopNavBar";
+import GoogleLogo from "./image/GoogleLogo.png"
 import SearchBar from "./components/SearchBar";
 
 function App() {
@@ -10,9 +9,8 @@ function App() {
     <>
       <div className="App">
         <TopNavBar />
-        <img id="logo" src={googlelogo} alt="googlelogo"></img>
+        <img id="Logo" src={GoogleLogo} alt="GoogleLogo"></img>
         <SearchBar />
-        {/* <Testboot /> */}
         <DownNavBar />
       </div>
     </>
