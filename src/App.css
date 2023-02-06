@@ -99,4 +99,13 @@
 
 #logo {
   padding-top: 60px;
+  padding-bottom: 20px;
+}
+
+#Searchbar {
+  padding: 10px 140px;
+}
+
+#SearchBox {
+  padding-bottom: 30px;
 }

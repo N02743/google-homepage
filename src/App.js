@@ -3,6 +3,7 @@ import DownNavBar from "./components/downNavBar";
 import TopNavBar from "./components/topNavBar";
 import Testboot from "./test";
 import googlelogo from "./image/googlelogo.png"
+import SearchBar from "./components/SearchBar";
 
 function App() {
   return (
@@ -10,9 +11,8 @@ function App() {
       <div className="App">
         <TopNavBar />
         <img id="logo" src={googlelogo} alt="googlelogo"></img>
+        <SearchBar />
         {/* <Testboot /> */}
-        <h1>Search bar</h1>
-        <h1>search button</h1>
         <DownNavBar />
       </div>
     </>
