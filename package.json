@@ -2,7 +2,7 @@
   "name": "google-homepage",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://N02743.github.io/google-homepage",
+  "homepage": "https://n02743.github.io/google-homepage",
   "dependencies": {
     "@emotion/react": "^11.10.5",
     "@emotion/styled": "^11.10.5",
